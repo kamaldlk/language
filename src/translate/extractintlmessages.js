@@ -1,9 +1,7 @@
-'use strict'
 const extractReactIntlMessages = require('extract-react-intl-messages')
-
-const locales = ['en', 'ja']
-const pattern = './**/!(*.test).js'
-const buildDir = './translate'
+const locales = ['en', 'de', 'fr']
+const pattern = '../**/!(*.test).js'
+const buildDir = './'
 const defaultLocale = 'en'
 
 extractReactIntlMessages(locales, pattern, buildDir, { defaultLocale }).then(
