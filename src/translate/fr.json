@@ -1,0 +1,3 @@
+{
+    "welcome": "Salut {name}, tu as {unreadCount, plural, =0 {aucun message} one {# message} other {# messages}}"
+}
