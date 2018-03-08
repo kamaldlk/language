@@ -41,6 +41,13 @@ class Message extends Component {
             weekday="long"
           />
         </p>
+        <FormattedMessage
+          id='email.sent'
+          defaultMessage='Your <x:link>email</x:link> has been sent.'
+          values={{
+            link: <a href='/sent'><FormattedMessage.Placeholder /></a>
+          }}
+        />
       </Fragment>
     );
   }

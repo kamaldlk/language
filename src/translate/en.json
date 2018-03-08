@@ -1,3 +1,5 @@
 {
-    "welcome": "Hello {name}, you have {unreadCount, plural, =0 {no message} one {# message} other {# messages}}"
+  "email.sent": "Your <x:link>email</x:link> has been sent.",
+  "welcome": "Hello {name}, you have {unreadCount, plural, =0 {no message} one {# message} other {# messages}}",
+  "welcome2": "testing"
 }

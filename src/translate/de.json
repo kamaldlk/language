@@ -1,3 +1,4 @@
 {
-    "welcome": "test {name}, you ssss {unreadCount, plural, =0 {no message} one {# message} other {# messages}}"
+  "email.sent": "",
+  "welcome": ""
 }

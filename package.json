@@ -17,6 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "language": "node ./src/translate/extractintlmessages"
+    "language": "NODE_ENV='development' node ./src/extractintlmessages"
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "^3.1.1"
   }
 }
