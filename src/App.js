@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { IntlProvider } from "react-intl";
 import Message from "./Message";
-import enMessages from './translate/en.json';
-import frMessages from './translate/fr.json';
-import deMessages from './translate/de.json';
+import enMessages from './locales/en.json';
+import frMessages from './locales/fr.json';
+import deMessages from './locales/de.json';
 const messages = {
   en: enMessages,
   fr: frMessages,
